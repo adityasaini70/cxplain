@@ -48,7 +48,10 @@ explainer.fit(x_train, y_train)
 # Use the __explainer__ to obtain explanations for the predictions of your __explained_model__.
 attributions = explainer.explain(x_test)
 ```
+## UML class diagram for CXPlain
+![UML](cxplain/UML/UML_preview.PNG)
 
+The file ```cxplain/UML/UML.pyns``` can be edited using the source software behind the diagram - [Pynsource](https://pynsource.com/).
 ## Examples
 
 More practical examples for various input data modalities, including images, textual data and tabular data, and both regression and classification tasks are provided in form of Jupyter notebooks in the [examples/](examples) directory:
