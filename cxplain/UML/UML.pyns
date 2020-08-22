@@ -1,0 +1,42 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'CXPlain', 'x':407, 'y':413, 'width':154, 'height':298, 'attrs': 'model_builder|loss|num_models|last_masked_data|explained_model|masking_operation|prediction_model|downsample_factors', 'meths': 'explain|get_config|__init__|predict|_predict_multiple|fit|get_masked_data'}
+{'type':'umlshape', 'id':'BaseEstimator', 'x':197, 'y':392, 'width':140, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Plot', 'x':367, 'y':15, 'width':258, 'height':64, 'attrs': '', 'meths': 'squeeze_if_channel_dim_equals_1'}
+{'type':'umlshape', 'id':'object', 'x':790, 'y':86, 'width':70, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'CountVectoriser', 'x':14, 'y':446, 'width':160, 'height':138, 'attrs': 'num_words', 'meths': 'fit_transform|__init__|fit|transform'}
+{'type':'umlshape', 'id':'TestUtil', 'x':1121, 'y':9, 'width':203, 'height':80, 'attrs': '', 'meths': 'replace_none_with_random|replace_none_with_fixed'}
+{'type':'umlshape', 'id':'NumpyInterface', 'x':1148, 'y':113, 'width':150, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'TensorflowCXPlain', 'x':677, 'y':390, 'width':226, 'height':346, 'attrs': 'model_filepath|last_masked_data|last_fit_score|last_history|flatten_for_explained_model|prediction_model|model', 'meths': '_build_ensemble|_score_single|score|save|_build_model|_build_single|__init__|get_config|get_last_fit_score|_predict_single|_fit_single'}
+{'type':'umlshape', 'id':'TensorflowInterface', 'x':678, 'y':10, 'width':200, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Validation', 'x':940, 'y':6, 'width':110, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'ModelSerialiser', 'x':546, 'y':153, 'width':160, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'PickleModelSerialiser', 'x':696, 'y':213, 'width':220, 'height':96, 'attrs': '', 'meths': 'load|save|get_file_extension'}
+{'type':'umlshape', 'id':'TensorFlowModelSerialiser', 'x':372, 'y':218, 'width':260, 'height':96, 'attrs': '', 'meths': 'load|save|get_file_extension'}
+{'type':'umlshape', 'id':'BaseModelBuilder', 'x':1348, 'y':93, 'width':194, 'height':298, 'attrs': 'optimizer|validation_fraction|learning_rate|num_epochs|shuffle|early_stopping_patience|batch_size|verbose|callbacks', 'meths': '__init__|evaluate|predict|build_explanation_model|fit|compile_model'}
+{'type':'umlshape', 'id':'MLPModelBuilder', 'x':1376, 'y':458, 'width':160, 'height':170, 'attrs': 'num_units|num_layers|p_dropout|activation|with_bn', 'meths': '__init__|build'}
+{'type':'umlshape', 'id':'RNNModelBuilder', 'x':1175, 'y':424, 'width':162, 'height':218, 'attrs': 'with_embedding|embedding_size|embedding_dimension|num_units|num_layers|p_dropout|activation|with_bn', 'meths': '__init__|build'}
+{'type':'umlshape', 'id':'UNetModelBuilder', 'x':976, 'y':184, 'width':170, 'height':250, 'attrs': 'l2_weight|with_bias|skip_last_dense|num_units|num_layers|downsample_factors|p_dropout|num_output_channels|activation|with_bn', 'meths': '__init__|build'}
+{'type':'umlshape', 'id':'BaseMasking', 'x':76, 'y':166, 'width':120, 'height':64, 'attrs': '', 'meths': '__init__'}
+{'type':'umlshape', 'id':'MaskingUtil', 'x':257, 'y':96, 'width':186, 'height':64, 'attrs': '', 'meths': 'predict_with_i_imputed'}
+{'type':'umlshape', 'id':'WordDropMasking', 'x':31, 'y':286, 'width':242, 'height':80, 'attrs': '', 'meths': 'get_predictions_after_masking|__init__'}
+{'type':'umlshape', 'id':'ZeroMasking', 'x':10, 'y':22, 'width':242, 'height':80, 'attrs': '', 'meths': 'get_predictions_after_masking|__init__'}
+{'type':'edge', 'id':'CXPlain_to_BaseEstimator', 'source':'CXPlain', 'target':'BaseEstimator', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Plot_to_object', 'source':'Plot', 'target':'object', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'CountVectoriser_to_BaseEstimator', 'source':'CountVectoriser', 'target':'BaseEstimator', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'TestUtil_to_object', 'source':'TestUtil', 'target':'object', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'NumpyInterface_to_object', 'source':'NumpyInterface', 'target':'object', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'TensorflowCXPlain_to_CXPlain', 'source':'TensorflowCXPlain', 'target':'CXPlain', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'TensorflowInterface_to_object', 'source':'TensorflowInterface', 'target':'object', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Validation_to_object', 'source':'Validation', 'target':'object', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'ModelSerialiser_to_object', 'source':'ModelSerialiser', 'target':'object', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'PickleModelSerialiser_to_ModelSerialiser', 'source':'PickleModelSerialiser', 'target':'ModelSerialiser', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'TensorFlowModelSerialiser_to_ModelSerialiser', 'source':'TensorFlowModelSerialiser', 'target':'ModelSerialiser', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'BaseModelBuilder_to_object', 'source':'BaseModelBuilder', 'target':'object', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'MLPModelBuilder_to_BaseModelBuilder', 'source':'MLPModelBuilder', 'target':'BaseModelBuilder', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'RNNModelBuilder_to_BaseModelBuilder', 'source':'RNNModelBuilder', 'target':'BaseModelBuilder', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'UNetModelBuilder_to_BaseModelBuilder', 'source':'UNetModelBuilder', 'target':'BaseModelBuilder', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'BaseMasking_to_object', 'source':'BaseMasking', 'target':'object', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'MaskingUtil_to_object', 'source':'MaskingUtil', 'target':'object', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'WordDropMasking_to_BaseMasking', 'source':'WordDropMasking', 'target':'BaseMasking', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'ZeroMasking_to_BaseMasking', 'source':'ZeroMasking', 'target':'BaseMasking', 'uml_edge_type': 'generalisation'}
